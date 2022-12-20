@@ -27,7 +27,7 @@ def calc(a,b,c):
     return (a**b)
   elif c == "//":
     return (a//b)
-  elif c == "sqrt" and b == 1:    #square root is represent by ^
+  elif c == "sqrt" and b == 1:    #square root is represent by sqrt
     return (np.sqrt(a)*b)     
   else:
     return ("error")      
